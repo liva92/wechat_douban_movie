@@ -1,0 +1,40 @@
+page {
+  width: 100%;
+  min-height: 100%;
+  background-color: #f9f9f9;
+  font-family: -apple-system-font, 'Helvetica Neue', Helvetica, 'Microsoft YaHei', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1616835 */
+  src: url('//at.alicdn.com/t/font_1616835_oazmf03t907.eot');
+  src: url('//at.alicdn.com/t/font_1616835_oazmf03t907.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1616835_oazmf03t907.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1616835_oazmf03t907.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1616835_oazmf03t907.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1616835_oazmf03t907.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+   color: tomato;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-password:before {
+  content: "\e608";
+}
+
+.icon-user:before {
+  content: "\e606";
+}
+
+

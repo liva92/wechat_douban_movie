@@ -1,0 +1,56 @@
+<view class="container">
+	<view wx:if="{{!userLogin}}">
+		<view class="header">
+			<image src="/images/douban.png" />
+		</view>
+		<view class="loginPane">
+			<form class="form" bindsubmit="_handleSumit">
+				<view class=" fromitem">
+					<text class="iconfont icon-user"></text>
+					<input name="account" class="account" placeholder="用户名(长度大于3)" bindinput="_handleAccount"></input>
+					<icon type="{{isGood?'success':'warn'}}"></icon>
+				</view>
+				<view class=" fromitem">
+					<text class="iconfont icon-password"></text>
+					<input name="password" password class="password" placeholder="密码" bindinput="_handlePassword"></input>
+				</view>
+				<view class="spaceBetween fromitem">
+					<checkbox-group name="remPass" bindchange="_handleRememberPwd">
+						<checkbox color="tomato" value="00" checked="{{remenberPwd}}">记住密码</checkbox>
+					</checkbox-group>
+					<checkbox-group name="autoReg" bindchange="_handleAutoLogin">
+						<checkbox color="tomato" value="11" checked="{{autoLogin}}">自动登录</checkbox>
+					</checkbox-group>
+
+				</view>
+				<view class="fromitem">
+					<button type="primary" class="loginBtn btn" form-type="submit" disabled="{{!canLogin}}">登录</button>
+				</view>
+				<view class="fromitem">
+					<button type="default" class="registerBtn btn">注册</button>
+				</view>
+			</form>
+		</view>
+	</view>
+
+	<view wx:else class="userPane">
+		<!-- 用户头部信息 -->
+		<view class="userinfoHeader">
+			<view class="userImage">
+				<image src="/images/profile-actived.png" class="userlogo"></image>
+			</view>
+			<text class="userName">liva </text>
+			<view>
+
+			</view>
+		</view>
+		<!-- 内容列表 -->
+		<view class="contain">
+		<view header>
+		</view>
+		<view class="movielist">
+		
+		</view>
+		</view>
+	</view>
+</view>
