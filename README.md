@@ -5,13 +5,13 @@
 微信扫一扫：
 
 <div>
-<img src="./imgs/QR2.jpg" alt="QR" style="zoom:33%;float=left" />
+<img src="https://github.com/liva92/Frontend-interview/blob/master/images/QR2.jpg" alt="QR" style="zoom:33%;float=left" />
 </div>
 
 或长按二维码：
 
 <div>
-<img src="./imgs/QR.jpg" alt="QR" style="zoom:33%;float=left" />
+<img src="https://github.com/liva92/Frontend-interview/blob/master/images/QR.jpg" alt="QR" style="zoom:33%;float=left" />
 </div>
 
 # 项目说明
