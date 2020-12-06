@@ -1,19 +1,11 @@
-# 简易译
+# 简 易 译
 
-简易译 微信小程序
+1.微信搜索：简 易 译（注意字体之间有空格）
 
-微信扫一扫：
+2.微信扫一扫：
 
 <div>
   <img src="https://s3.ax1x.com/2020/12/06/DXn2qK.jpg" style="zoom:33%;" />
-</div>
-
-
-
-或长按二维码：
-
-<div>
-  <img src="https://s3.ax1x.com/2020/12/06/DXnWVO.jpg" style="zoom:33%;" />
 </div>
 
 # 项目说明
