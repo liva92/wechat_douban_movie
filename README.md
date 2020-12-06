@@ -4,9 +4,11 @@
 
 微信搜索：**简易译**
 
-或扫描二维码：
+或长按二维码：
 
-
+<div>
+<img src="./imgs/QR.jpg" alt="QR" style="zoom:33%;float=left" />
+</div>
 
 # 项目说明
 
@@ -146,8 +148,6 @@ onTapItem: function (e) {
 
 ```JavaScript
 onLoad: function (options) {  //翻译历史页通过 reLaunch 跳转，重新加载
-  console.log('onload..')
-  console.log(options)
   if (options.query) {
     this.setData({ query: options.query })
     this.setData({ 'hideClearIcon': false })   //让icon-close显现
