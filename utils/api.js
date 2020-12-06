@@ -6,8 +6,8 @@
  */
 import md5 from './md5.min.js';
 
-const appid = '20200428000433283'; //注册百度翻译api
-const key = 'SGoGGXh_TwmP2IF2STaW'; //注册百度翻译api
+const appid = 'appid'; //注册百度翻译api
+const key = 'appkey'; //注册百度翻译api
 
 function translate(
   q,
