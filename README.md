@@ -2,7 +2,11 @@
 
 简易译 微信小程序
 
-微信搜索：**简易译**
+微信扫一扫：
+
+<div>
+<img src="./imgs/QR2.jpg" alt="QR" style="zoom:33%;float=left" />
+</div>
 
 或长按二维码：
 
